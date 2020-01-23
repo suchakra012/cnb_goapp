@@ -1,0 +1,3 @@
+---
+  go:
+    import-path: github.com/suchakra012/cnb_goapp
