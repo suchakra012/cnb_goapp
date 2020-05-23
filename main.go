@@ -33,8 +33,7 @@ func handle(w http.ResponseWriter, r *http.Request) {
 		http.NotFound(w, r)
 		return
 	}
-	#fmt.Fprint(w, "Welcome to Cloud-Native Buildpacks Session !!!")
-	fmt.Fprintf(w, "<img src='cloudnative.jpg' alt='cloudnative' style='width:235px;height:320px;'>")
+	fmt.Fprint(w, "*************************************Welcome to Cloud-Native Buildpacks Session $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
 }
 
 func healthCheckHandler(w http.ResponseWriter, r *http.Request) {
