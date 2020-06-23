@@ -33,7 +33,7 @@ func handle(w http.ResponseWriter, r *http.Request) {
 		http.NotFound(w, r)
 		return
 	}
-	fmt.Fprint(w, "*************************************Welcome to Cloud-Native Buildpacks Session $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+	fmt.Fprint(w, "******* Hello Campers !!! Welcome to Buildpack Session ********")
 }
 
 func healthCheckHandler(w http.ResponseWriter, r *http.Request) {
